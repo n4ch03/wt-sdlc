@@ -1,7 +1,7 @@
 'use latest'
 const request = require("request");
 const meta = {
-  "title": "Social Github Webhook es6 Sample",
+  "title": "Social Github Webhook es6 Sample  ",
   "name": "social-github-es6-sample",
   "version": "1.0.0",
   "author": "auth0",
