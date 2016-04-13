@@ -45,7 +45,7 @@ module.exports =  (ctx, req, res) => {
       res.end(JSON.stringify({"result": error}));
     } else {
       body = JSON.parse(body);
-      let result = ['privates & owned: '];
+      let result = ['privates&owned: '];
       body.forEach(item => result.push(item.name));
       res.writeHead(200, {'Content-Type': 'application/json'});
       res.end(JSON.stringify(result));
