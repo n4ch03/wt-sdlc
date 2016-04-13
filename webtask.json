@@ -1,0 +1,19 @@
+{
+  "title": "Social Github Webhook es6 Sample",
+  "name": "social-github-es6-sample",
+  "version": "1.0.0",
+  "author": "auth0",
+  "description": "Social Github Webhook ES6 sample for Webtask IO.",
+  "type": "application",
+  "keywords": [
+    "auth0",
+    "es6"
+  ],
+  "secrets": {
+    "GITHUB_TOKEN": {
+      "description": "Github Token",
+      "required": true,
+      "default": "TOKEN_INCORRECT"
+    }
+  }
+}
