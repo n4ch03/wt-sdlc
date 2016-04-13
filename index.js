@@ -3,7 +3,7 @@ const request = require("request");
 const meta = {
   "title": "Social Github Webhook es6 Sample  ",
   "name": "social-github-es6-sample",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "auth0",
   "description": "Social Github Webhook ES6 sample for Webtask IO.",
   "type": "application",
